@@ -48,18 +48,18 @@ type JuMinData struct {
 }
 type JuMin struct {
 	ID         string
-	ChkDate    string
+	Chkdate    string
 	Yuan       string
 	Louhao     string
-	MenHao     string
-	MenPai     string
-	HuKou      string
-	HuJi       string
-	XianZhuZhi string
+	Menhao     string
+	Menpai     string
+	Hukou      string
+	Huji       string
+	Xianzhuzhi string
 	Name       string
-	GuanXi     string
+	Guanxi     string
 	Sex        string
-	ShenFenID  string
+	Shenfenid  string
 	Zhengzhi   string
 	Birthday   string
 	Old        string
@@ -69,7 +69,7 @@ type JuMin struct {
 	Telephone  string
 	Shiye      string
 	Tuixiu     string
-	GzDanWei   string
+	Gzdanwei   string
 	Techang    string
 	Dibahu     string
 	Gulaohu    string

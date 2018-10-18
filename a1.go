@@ -31,9 +31,10 @@ func main() {
 	var aa int = 99
 	class1.Check(aa)
 	class1.Classifier(1, "wo", 12.78, true)
-	var JuMin []class1.Jumin
-	JuMin = class1.GetData1()
+	var JuMin []class1.JuMin
+	JuMin = class1.GetData()
 	fmt.Println(JuMin[0])
+
 	/*
 		var data []map[string]string
 		data = class1.GetDataJuMin1()

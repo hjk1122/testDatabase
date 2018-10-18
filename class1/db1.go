@@ -13,7 +13,7 @@ type Jumin struct {
 	Id     string
 	Name   string
 	Louhao string
-	MenHao string
+	Menhao string
 }
 
 func newXorm() {
@@ -32,7 +32,7 @@ func GetData() []JuMin {
 
 	var juMin []JuMin
 	//sql := "SELECT `Id`,`Name` FROM `info`"
-	sql := "select * from jumin LIMIT 100"
+	sql := "select * from jumin LIMIT 1"
 	engine.SQL(sql).Find(&juMin)
 	//engine.Where(sql).Get(info)
 	return juMin
